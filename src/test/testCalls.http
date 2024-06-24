@@ -1,0 +1,11 @@
+### Test call to register a user
+POST localhost:8070/auth/register
+Accept: application/json
+Content-Type: application/json
+
+{
+  "username": "test-user-2",
+  "password": "test-password"
+}
+
+###
